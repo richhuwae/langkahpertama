@@ -1,1 +1,49 @@
+/* set the background color and font of the entire website */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* style the header and navigation menu */
+header {
+  background-color: blue;
+  color: white;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* style the main content sections */
+section {
+  padding: 20px;
+}
+section#about {
+  background-color: gray;
+  color: white;
+}
+section#projects {
+  background-color: lightgray;
+}
+section#contact {
+  background-color: white;
+}
+
+/* style the footer */
+footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
 
